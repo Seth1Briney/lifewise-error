@@ -1,0 +1,29 @@
+The problem seems to be that data isn't getting set in mutter-ship.js, lines 3209-3235
+
+function loginSubmit() {
+	if(!validateFormElements($('#logonform'))){
+		$('#SubmitButton').removeAttr('disabled')
+		return false;
+	}
+	if (sessionStorage.getItem("isIdP") == "false") {
+		var myObject = {};
+		$('input').each(function() {
+			var x = $(this);
+			myObject['\'' + x.attr('id') + '\''] = $('#username').val();
+		});
+		myObject['username'] = $('#username').val();
+		myObject['password'] = $('#password').val();
+		myObject['locale'] = sessionStorage.getItem("locale");
+		var url = contextRoot+"/rest/authentication/authLogin"; // the script where you
+													// handle
+		$.post(url, myObject).done(function(data, textStatus, request) {
+
+			postLoginProcess(data, textStatus, request);
+			
+		});
+	}
+}
+
+function postLoginProcess(data, textStatus, request){
+	var myKey = request.getResponseHeader('Access-Key');
+	let respData = JSON.parse(data);

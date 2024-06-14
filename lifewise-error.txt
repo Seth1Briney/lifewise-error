@@ -1,0 +1,85 @@
+VM296:1 Uncaught 
+SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at postLoginProcess (mutter-ship.js:3235:22)
+    at Object.<anonymous> (idp.js:215:5)
+    at c (jquery-3.7.0.min.js:2:25266)
+    at Object.fireWith [as resolveWith] (jquery-3.7.0.min.js:2:26015)
+    at l (jquery-3.7.0.min.js:2:77721)
+    at XMLHttpRequest.<anonymous> (jquery-3.7.0.min.js:2:80204)
+postLoginProcess	@	mutter-ship.js:3235
+(anonymous)	@	idp.js:215
+c	@	jquery-3.7.0.min.js:2
+fireWith	@	jquery-3.7.0.min.js:2
+l	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+load (async)		
+send	@	jquery-3.7.0.min.js:2
+ajax	@	jquery-3.7.0.min.js:2
+ce.<computed>	@	jquery-3.7.0.min.js:2
+checkForSSO	@	idp.js:213
+c	@	jquery-3.7.0.min.js:2
+fireWith	@	jquery-3.7.0.min.js:2
+l	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+load (async)		
+send	@	jquery-3.7.0.min.js:2
+ajax	@	jquery-3.7.0.min.js:2
+checkForIdPSession	@	idp.js:172
+(anonymous)	@	mutter-ship.js:3611
+c	@	jquery-3.7.0.min.js:2
+fireWith	@	jquery-3.7.0.min.js:2
+l	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+load (async)		
+send	@	jquery-3.7.0.min.js:2
+ajax	@	jquery-3.7.0.min.js:2
+ce.<computed>	@	jquery-3.7.0.min.js:2
+getJSON	@	jquery-3.7.0.min.js:2
+checkIdP	@	mutter-ship.js:3607
+initLogon	@	mutter-ship.js:3648
+loadPageMessages	@	mutter-ship.js:3642
+(anonymous)	@	mutter-ship.js:3693
+e	@	jquery-3.7.0.min.js:2
+t	@	jquery-3.7.0.min.js:2
+setTimeout (async)		
+(anonymous)	@	jquery-3.7.0.min.js:2
+c	@	jquery-3.7.0.min.js:2
+add	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+Deferred	@	jquery-3.7.0.min.js:2
+then	@	jquery-3.7.0.min.js:2
+ce.fn.ready	@	jquery-3.7.0.min.js:2
+(anonymous)	@	mutter-ship.js:3658
+m	@	jquery-3.7.0.min.js:2
+globalEval	@	jquery-3.7.0.min.js:2
+text script	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+l	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+load (async)		
+send	@	jquery-3.7.0.min.js:2
+ajax	@	jquery-3.7.0.min.js:2
+ce.<computed>	@	jquery-3.7.0.min.js:2
+getScript	@	jquery-3.7.0.min.js:2
+(anonymous)	@	VM270:16
+m	@	jquery-3.7.0.min.js:2
+$e	@	jquery-3.7.0.min.js:2
+append	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+R	@	jquery-3.7.0.min.js:2
+html	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+c	@	jquery-3.7.0.min.js:2
+fireWith	@	jquery-3.7.0.min.js:2
+l	@	jquery-3.7.0.min.js:2
+(anonymous)	@	jquery-3.7.0.min.js:2
+load (async)		
+send	@	jquery-3.7.0.min.js:2
+ajax	@	jquery-3.7.0.min.js:2
+ce.fn.load	@	jquery-3.7.0.min.js:2
+loadScripts	@	cors.js?v=SP_58_01032024_P05:58
+setTimeout (async)		
+script.onload.script.onreadystatechange	@	cors.js?v=SP_58_01032024_P05:42
+load (async)		
+(anonymous)	@	cors.js?v=SP_58_01032024_P05:37
